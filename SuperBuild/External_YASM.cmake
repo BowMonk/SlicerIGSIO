@@ -41,7 +41,7 @@ if(NOT DEFINED YASM_DIR AND NOT ${CMAKE_PROJECT_NAME}_USE_SYSTEM_${proj})
 
   ExternalProject_SetIfNotDefined(
     ${CMAKE_PROJECT_NAME}_${proj}_GIT_TAG
-    master
+    "121ab150b3577b666c79a79f4a511798d7ad2432"
     QUIET
     )
 
